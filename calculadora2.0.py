@@ -4,7 +4,7 @@ janela=tk.Tk()
 
 
 def inserir_texto(x): #def=definition
-    texto.insert(1,0,x)
+    texto.insert(1.0,x)
 
 texto=tk.Text(janela,height=2,width=10,font=("Arial 30"))
 texto.grid(columnspan=4) #grid para dar forma a algo
